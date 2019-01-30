@@ -1,0 +1,58 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Arjel import your fontawesome from node_modules
+$fa-font-path: '/fonts/font-awesome';
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Arjel - link admin lte design in node_modules
+//admin-lte
+@import '~font-awesome/scss/font-awesome.scss';
+@import '~admin-lte/dist/css/adminlte.css';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+//Arjel - active link
+.router-link-exact-active{
+  background-color: #881212;
+  color: white;
+}
+
+
+//Arjel
+
+.modal-footer > :not(:first-child) {
+  margin-left: 0px !important;
+}
+
+.btn-block + .btn-block {
+  margin-top: 0rem !important;
+}
+
+.btn-block + .btn-block {
+    margin-top: 0rem !important;
+}
+
+.main-footer {
+    color: #fffefe !important;
+    background-color: #881212 !important;
+}
+
+.bg-white {
+    background-color: #881212 !important;
+}
+
+.border-bottom {
+    border-bottom: 3px solid #ffc107 !important;
+}
+
